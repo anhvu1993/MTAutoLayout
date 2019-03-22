@@ -22,13 +22,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button = UIButton(type: UIButtonType.RoundedRect)
-        button.backgroundColor = UIColor.cyanColor()
+        button = UIButton(type: UIButton.ButtonType.RoundedRect)
+        button.backgroundColor = UIColor.cyanColor
         button.setTitle("change size", forState: UIControlState.Normal)
         button.addTarget(self, action: "changeSize", forControlEvents: UIControlEvents.TouchUpInside)
         
         view.addSubview(button)
-        
+        aaaa
 
         // MARK: HIGH
         
