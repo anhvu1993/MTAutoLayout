@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     let folowSize = CGSize(width: 20, height: 20)
     
     var dict : [String: NSLayoutConstraint]!
-    let bgColor = UIColor.greenColor()
-    let innerColor = UIColor.cyanColor()
+    let bgColor = UIColor.green
+    let innerColor = UIColor.cyan
     
     
     override func viewDidLoad() {
